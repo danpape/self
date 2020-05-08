@@ -1,8 +1,11 @@
 {
-  "@context": [
-    "https://schema.org/",
-    "https://w3id.org/security/v1",
-    "https://w3id.org/did/v1"
-  ],
-  "didDocument": { }
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:btcr:8uny-frpq-qpqq-p295-cs",
+  "authentication": [{
+    "id": "did:btcr:8uny-frpq-qpqq-p295-cs#keys-1",
+    "type": "RsaVerificationKey2018",
+    "controller": "did:btcr:8uny-frpq-qpqq-p295-cs",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  }],
+  "service": []
 }
